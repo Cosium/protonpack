@@ -10,7 +10,7 @@
 
     <groupId>com.codepoetics</groupId>
     <artifactId>protonpack</artifactId>
-    <version>1.11.cos-fork.1</version>
+    <version>1.11.cos-fork.2-SNAPSHOT</version>
     <packaging>bundle</packaging>
     
     <dependencies>
