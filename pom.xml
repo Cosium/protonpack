@@ -10,7 +10,7 @@
 
     <groupId>com.codepoetics</groupId>
     <artifactId>protonpack</artifactId>
-    <version>1.11</version>
+    <version>1.11.cos-fork.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     
     <dependencies>
@@ -52,10 +52,22 @@
 
 
     <scm>
-        <connection>scm:git:git://github.com/poetix/protonpack.git</connection>
-        <developerConnection>scm:git:git@github.com:poetix/protonpack.git</developerConnection>
-        <url>http://github.com/poetix/protonpack</url>
+        <connection>scm:git:git://github.com/Cosium/protonpack.git</connection>
+        <developerConnection>scm:git:git@github.com:Cosium/protonpack.git</developerConnection>
+        <url>http://github.com/Cosium/protonpack</url>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>cosium-repo</id>
+            <name>Internal Release Repository</name>
+            <url>https://repo.cosium.com/repository/internal/</url>
+        </repository>
+        <snapshotRepository>
+            <id>cosium-repo-snapshots</id>
+            <name>Internal Snapshot Repository</name>
+            <url>https://repo.cosium.com/repository/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
